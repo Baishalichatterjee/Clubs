@@ -1,0 +1,43 @@
+.event-con {
+    /* border: 1px solid green; */
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.events-outer {
+    background-color: #363636;
+    width: 90%;
+    padding: 10px 0px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding-right: 35px;
+}
+
+
+.event-con h2 {
+    font-size: 40px;
+    color: green;
+    text-align: left;
+}
+
+.events-inner {
+    display: flex;
+    /* border: 1px solid green; */
+    width: 97%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    padding: 15px 0px;
+    background-color: #363636;
+    overflow-x: scroll;
+}
+
+.events-inner::-webkit-scrollbar {
+    display: none;
+}
+.events-inner:last-child{
+    margin-right: 0px;
+}

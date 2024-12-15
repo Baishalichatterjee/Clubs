@@ -1,0 +1,81 @@
+.sign-blur{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(61, 61, 61, 0.429);
+    overflow: none;
+    top: 0;
+    position: absolute;
+}
+
+.signin{
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid green; */
+    padding: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border-radius: 30px;
+    box-shadow:0px 0px 200px green;
+}
+
+.signin h3{
+    margin-top: 10px;
+    margin-bottom:3px;
+}
+.sign-line{
+    /* width:400px; */
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, green, transparent);
+    /* border: 2px solid white; */
+
+}
+
+.sign-user input, .sign-pass input, .sign-email input{
+    width: 280px;
+    height: 30px;
+    margin-top: 25px;
+    background-color: #212122;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid green;
+    font-size: 17px;
+    /* padding-left: 5px; */
+}
+
+.sign-user input::placeholder, .sign-pass input::placeholder, .sign-email input::placeholder{
+
+    color: white;
+    font-size: 17px;
+    padding-left: 5px;
+    padding-bottom: 1px;
+}
+
+
+#signinbtn{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#sign-close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    outline: none;
+    border: none;
+}
+#sign-close img{
+    width: 20px;
+    height: 20px;
+}

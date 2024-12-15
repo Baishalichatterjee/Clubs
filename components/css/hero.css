@@ -1,0 +1,33 @@
+.hero{
+    font-size: 40px;
+    width: 70%;
+    margin: 150px auto;
+    /* border: 1px solid green; */
+}
+
+.text-color{
+    color: green;
+}
+
+.joinclub{
+    display: flex;
+    width: fit-content;
+    margin: 20px auto;
+    gap: 30px;
+}
+
+.joinclub p{
+    font-size: 20px;
+    padding: 13px 0px;
+}
+
+
+.joinclub button{
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: green;
+    font-size: 20px;
+    border-radius: 10px;
+}
