@@ -23,7 +23,7 @@ function NoticeBoard() {
                     <Notice />
                     <Notice />
                     <Notice />
-                    <Notice desc="rajur pond marano"/>
+                    <Notice />
                 </div>
 
             </div>
